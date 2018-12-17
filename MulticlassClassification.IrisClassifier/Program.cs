@@ -2,7 +2,7 @@
 using Microsoft.ML;
 using Microsoft.ML.Runtime.Data;
 
-namespace MulticlassClassification.IrisClassifier {
+namespace Classification.IrisClassifier {
     class Program {
         static void Main (string[] args) {
             Console.WriteLine ("Hello ML.NET!");

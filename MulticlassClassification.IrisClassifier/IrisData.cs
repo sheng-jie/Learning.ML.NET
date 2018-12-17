@@ -1,4 +1,4 @@
-namespace MulticlassClassification.IrisClassifier {
+namespace Classification.IrisClassifier {
     public class IrisData {
         public float SepalLength { get; set; }
 

@@ -1,6 +1,6 @@
 using Microsoft.ML.Runtime.Api;
 
-namespace MulticlassClassification.IrisClassifier
+namespace Classification.IrisClassifier
 {
     public class IrisPrediction
     {
