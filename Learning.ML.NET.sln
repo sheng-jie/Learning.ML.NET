@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28307.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clustering.IrisCluster", "Clustering.IrisCluster\Clustering.IrisCluster.csproj", "{6E420A01-AABA-48D9-978E-6E5106F0E5B2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Classification.IrisClassifier", "MulticlassClassification.IrisClassifier\Classification.IrisClassifier.csproj", "{BA53C268-6996-424E-BCF3-846DC2DE28D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Classification.IrisClassifier", "Classification.IrisClassifier\Classification.IrisClassifier.csproj", "{BA53C268-6996-424E-BCF3-846DC2DE28D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
