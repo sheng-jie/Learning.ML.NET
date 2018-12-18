@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clustering.IrisCluster", "C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Classification.IrisClassifier", "Classification.IrisClassifier\Classification.IrisClassifier.csproj", "{BA53C268-6996-424E-BCF3-846DC2DE28D4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classification.GithubIssueClassifer", "Classification.GithubIssueClassifer\Classification.GithubIssueClassifer.csproj", "{F9B7BBEE-FA18-4ADF-AECF-851818A4A23F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{BA53C268-6996-424E-BCF3-846DC2DE28D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA53C268-6996-424E-BCF3-846DC2DE28D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA53C268-6996-424E-BCF3-846DC2DE28D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9B7BBEE-FA18-4ADF-AECF-851818A4A23F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9B7BBEE-FA18-4ADF-AECF-851818A4A23F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9B7BBEE-FA18-4ADF-AECF-851818A4A23F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9B7BBEE-FA18-4ADF-AECF-851818A4A23F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
