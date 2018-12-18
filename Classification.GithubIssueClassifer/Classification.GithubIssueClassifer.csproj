@@ -10,6 +10,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ML.Common\ML.Common.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Update="Data\corefx-issues-train.tsv">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
