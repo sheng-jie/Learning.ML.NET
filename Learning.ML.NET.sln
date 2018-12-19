@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Classification.GithubIssueC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Regression.SalaryPredictor", "Regression.SalaryPredictor\Regression.SalaryPredictor.csproj", "{2EFF300A-9F48-494B-8B54-CEE467E7E3A6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Regression.DiamondPricePredictor", "Regression.DiamondPricePredictor\Regression.DiamondPricePredictor.csproj", "{2E309105-8DF2-4DC0-B5BA-10FC059CF347}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{2EFF300A-9F48-494B-8B54-CEE467E7E3A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2EFF300A-9F48-494B-8B54-CEE467E7E3A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2EFF300A-9F48-494B-8B54-CEE467E7E3A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E309105-8DF2-4DC0-B5BA-10FC059CF347}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E309105-8DF2-4DC0-B5BA-10FC059CF347}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E309105-8DF2-4DC0-B5BA-10FC059CF347}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E309105-8DF2-4DC0-B5BA-10FC059CF347}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
