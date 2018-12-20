@@ -15,11 +15,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Classification.SpamDetectio
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Classification.GithubIssueClassifer", "Classification.GithubIssueClassifer\Classification.GithubIssueClassifer.csproj", "{F9B7BBEE-FA18-4ADF-AECF-851818A4A23F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Regression.SalaryPredictor", "Regression.SalaryPredictor\Regression.SalaryPredictor.csproj", "{2EFF300A-9F48-494B-8B54-CEE467E7E3A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Regression.SalaryPredictor", "Regression.SalaryPredictor\Regression.SalaryPredictor.csproj", "{2EFF300A-9F48-494B-8B54-CEE467E7E3A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Regression.DiamondPricePredictor", "Regression.DiamondPricePredictor\Regression.DiamondPricePredictor.csproj", "{2E309105-8DF2-4DC0-B5BA-10FC059CF347}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Regression.DiamondPricePredictor", "Regression.DiamondPricePredictor\Regression.DiamondPricePredictor.csproj", "{2E309105-8DF2-4DC0-B5BA-10FC059CF347}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Regression.SalesForecast", "Regression.SalesForecast\Regression.SalesForecast.csproj", "{76F05BAF-B687-4532-9C87-D0EB2B5EB026}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Regression.SalesForecast", "Regression.SalesForecast\Regression.SalesForecast.csproj", "{76F05BAF-B687-4532-9C87-D0EB2B5EB026}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classification.Tensorflow.ImageClassifier", "Classification.Tensorflow.ImageClassifier\Classification.Tensorflow.ImageClassifier.csproj", "{35B7E660-87AC-498F-BF59-FEC82C18257C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{76F05BAF-B687-4532-9C87-D0EB2B5EB026}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76F05BAF-B687-4532-9C87-D0EB2B5EB026}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76F05BAF-B687-4532-9C87-D0EB2B5EB026}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35B7E660-87AC-498F-BF59-FEC82C18257C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35B7E660-87AC-498F-BF59-FEC82C18257C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35B7E660-87AC-498F-BF59-FEC82C18257C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35B7E660-87AC-498F-BF59-FEC82C18257C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
