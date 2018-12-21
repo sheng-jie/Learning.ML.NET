@@ -1,6 +1,6 @@
 using Microsoft.ML.Runtime.Api;
 
-namespace Classification.GithubIssueClassifer
+namespace Classification.GithubIssueClassifier
 {
     public class GithubIssuePrediction
     {

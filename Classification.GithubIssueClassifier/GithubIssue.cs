@@ -1,4 +1,4 @@
-namespace Classification.GithubIssueClassifer
+namespace Classification.GithubIssueClassifier
 {
     public class GithubIssue
     {

@@ -1,11 +1,10 @@
 ﻿using System;
 using System.IO;
 using Microsoft.ML;
-using Microsoft.ML.Core.Data;
 using Microsoft.ML.Runtime.Data;
 using ML.Common;
 
-namespace Classification.GithubIssueClassifer
+namespace Classification.GithubIssueClassifier
 {
     class Program
     {

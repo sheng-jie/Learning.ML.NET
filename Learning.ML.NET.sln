@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ML.Common", "ML.Common\ML.C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Classification.SpamDetection", "Classification.SpamDetection\Classification.SpamDetection.csproj", "{01FB4374-A009-4D0D-92EE-A47D79057C4E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Classification.GithubIssueClassifer", "Classification.GithubIssueClassifer\Classification.GithubIssueClassifer.csproj", "{F9B7BBEE-FA18-4ADF-AECF-851818A4A23F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Classification.GithubIssueClassifier", "Classification.GithubIssueClassifer\Classification.GithubIssueClassifier.csproj", "{F9B7BBEE-FA18-4ADF-AECF-851818A4A23F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Regression.SalaryPredictor", "Regression.SalaryPredictor\Regression.SalaryPredictor.csproj", "{2EFF300A-9F48-494B-8B54-CEE467E7E3A6}"
 EndProject
