@@ -33,8 +33,10 @@ namespace Classification.Tensorflow.ImageClassifier
                 HasHeader = false
             });
 
+            // 读取数据
             var data = loader.Read(new MultiFileSource(DataPath));
 
+            // 构建评估管道，调整图像使其适应神经网络预期的格式
             var pipeline =
                 mlContext.Transforms.LoadImages(imageFolder: ImageFolder, columns: ("ImagePath", "ImageReal"))
                     .Append(mlContext.Transforms.Resize("ImageReal", "ImageReal", ImageNetSettings.ImageWidth,
@@ -45,9 +47,12 @@ namespace Classification.Tensorflow.ImageClassifier
                             interleave: ImageNetSettings.ChannelsLast, offset: ImageNetSettings.Mean),
                     }))
                     .Append(mlContext.Transforms.ScoreTensorFlowModel(TFModelPath, new[] { "input" },
-                        new[] { "softmax2" }));
+                        new[] { "softmax2" }));//使用TensorFlow Model去评分，需要借助Netron去查询模型的输入输出节点参数
+
+            // 管道适配评估
             var model = pipeline.Fit(data);
 
+            //预测
             var predictionFunc = model.MakePredictionFunction<ImageNetData, ImageNetPrediction>(mlContext);
 
             var testData = ImageNetData.ReadFromCsv(DataPath, ImageFolder);
