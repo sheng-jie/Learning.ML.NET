@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Regression.DiamondPricePred
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Regression.SalesForecast", "Regression.SalesForecast\Regression.SalesForecast.csproj", "{76F05BAF-B687-4532-9C87-D0EB2B5EB026}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classification.Tensorflow.ImageClassifier", "Classification.Tensorflow.ImageClassifier\Classification.Tensorflow.ImageClassifier.csproj", "{35B7E660-87AC-498F-BF59-FEC82C18257C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Classification.Tensorflow.ImageClassifier", "Classification.Tensorflow.ImageClassifier\Classification.Tensorflow.ImageClassifier.csproj", "{35B7E660-87AC-498F-BF59-FEC82C18257C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recommendation.MovieRecommender", "Recommendation.MovieRecommender\Recommendation.MovieRecommender.csproj", "{A2F330A7-A51E-47B3-B7A7-29F0370CF48E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{35B7E660-87AC-498F-BF59-FEC82C18257C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35B7E660-87AC-498F-BF59-FEC82C18257C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35B7E660-87AC-498F-BF59-FEC82C18257C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2F330A7-A51E-47B3-B7A7-29F0370CF48E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2F330A7-A51E-47B3-B7A7-29F0370CF48E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2F330A7-A51E-47B3-B7A7-29F0370CF48E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2F330A7-A51E-47B3-B7A7-29F0370CF48E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
